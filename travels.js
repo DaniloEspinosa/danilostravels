@@ -2,9 +2,9 @@
 const data = require("./travels.json")
 // console.log(data)
 
-const puerto = 4000
+const puerto = 5000
 
-// Crear el servidos
+// Crear el servidor
 const { createServer } = require("node:http")
 
 const server = createServer((req, res) => {
